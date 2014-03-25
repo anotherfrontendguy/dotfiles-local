@@ -1,0 +1,5 @@
+" Colorscheme
+colorscheme jellybeans
+
+" Mappings
+nnoremap <leader><space> :noh<cr>
