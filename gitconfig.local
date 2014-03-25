@@ -1,3 +1,6 @@
 [user]
   name = Johannes Rückert
   email = rawbauke@gmail.com 
+
+[alias]
+  co = commit -m
