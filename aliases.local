@@ -1,0 +1,8 @@
+# Muscle Memory
+
+alias c="clear"
+
+# Git Laziness
+
+alias gs="git status"
+alias ga="git add"
