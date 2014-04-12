@@ -3,3 +3,6 @@ colorscheme jellybeans
 
 " Mappings
 nnoremap <leader><space> :noh<cr>
+
+" Tweak to use unnamed clipboard (for tmux)
+set clipboard=unnamed
