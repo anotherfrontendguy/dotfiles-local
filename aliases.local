@@ -6,3 +6,4 @@ alias c="clear"
 
 alias gs="git status"
 alias ga="git add"
+alias gb="git branches"
