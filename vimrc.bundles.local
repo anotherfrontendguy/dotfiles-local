@@ -1,3 +1,4 @@
 " get me some colors
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'othree/html5.vim'
+Bundle 'mrtazz/simplenote.vim'
