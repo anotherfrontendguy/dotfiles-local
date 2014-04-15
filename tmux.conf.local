@@ -1,9 +1,7 @@
-# default statusbar colors
-set-option -g status-fg white 
-set-option -g status-bg black 
-set-option -g status-attr default
+# force a reload of the config file
+unbind r
+bind r source-file ~/.tmux.conf
 
-# command/message line colors
-set-option -g message-fg white
-set-option -g message-bg red 
-set-option -g message-attr bright
+# # quick pane cycling
+unbind ^A
+bind ^A select-pane -t :.+
