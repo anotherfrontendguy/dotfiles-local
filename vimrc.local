@@ -7,9 +7,24 @@ nnoremap <leader><space> :noh<cr>
 " Tweak to use unnamed clipboard (for tmux)
 set clipboard=unnamed
 
-" Include Simplenoterc
+" Simplenoterc + Settings
 source ~/.simplenoterc
-
 let g:SimplenoteFiletype = "markdown"
-
 let g:SimplenoteVertical=1
+
+" vim-airline 
+set laststatus=2
+let g:airline_powerline_fonts=1
+let g:airline_theme= "jellybeans"
+let g:airline_detect_whitespace=0
+
+" tmuxline
+let g:tmuxline_preset = {
+      \'a'    : '#S',
+      \'b'    : '#W',
+      \'c'    : '#h',
+      \'win'  : '#I #W',
+      \'cwin' : '#I #W',
+      \'x'    : '%a',
+      \'y'    : '#W %R',
+      \'z'    : '#h'}
