@@ -28,3 +28,9 @@ let g:tmuxline_preset = {
       \'x'    : '%a',
       \'y'    : '#W %R',
       \'z'    : '#h'}
+
+" use flavored-markdown by default
+augroup markdown
+      au!
+      au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown   
+augroup END
