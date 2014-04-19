@@ -1,10 +1,11 @@
 # Muscle Memory
-
 alias c="clear"
 
 # Git Laziness
-
 alias ga="git add"
 alias gb="git branches"
 alias gr="git remotes"
 alias gs="git status"
+
+# Safety First
+alias rm="rm -i"
