@@ -7,11 +7,6 @@ nnoremap <leader><space> :noh<cr>
 " Tweak to use unnamed clipboard (for tmux)
 set clipboard=unnamed
 
-" Simplenoterc + Settings
-source ~/.simplenoterc
-let g:SimplenoteFiletype = "markdown"
-let g:SimplenoteVertical=1
-
 " vim-airline 
 set laststatus=2
 let g:airline_powerline_fonts=1
@@ -34,3 +29,8 @@ augroup markdown
       au!
       au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown   
 augroup END
+
+" set height of preview-window (e.g. for fugitive etc)
+" default=12
+set previewheight=20
+
