@@ -4,6 +4,8 @@ Bundle 'zeis/vim-kolor'
 Bundle 'junegunn/seoul256.vim'
 Bundle 'Lokaltog/vim-distinguished'
 Bundle 'vim-scripts/xoria256.vim'
+Bundle 'godlygeek/csapprox'
+Bundle 'vim-scripts/Guardian'
 " end colors
 Bundle 'othree/html5.vim'
 Bundle 'mrtazz/simplenote.vim'
