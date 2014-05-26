@@ -34,3 +34,6 @@ augroup END
 " default=12
 set previewheight=20
 
+" keymapping for NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
