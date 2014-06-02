@@ -6,3 +6,8 @@ function google() {
     done
     open "http://www.google.com/search?q=$search"
 }
+
+# show changes since commit X
+git_changes_since() {
+  git archive -o ~/Desktop/changed.zip HEAD $(git diff --name-only --diff-filter=ACMR $1 HEAD)
+ }
