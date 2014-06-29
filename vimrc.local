@@ -9,10 +9,11 @@ nnoremap <leader><space> :noh<cr>
 " Tweak to use unnamed clipboard (for tmux)
 set clipboard=unnamed
 
-" vim-airline 
+" Vim-airline 
+" Vim-airline doesn't appear until I create a new split
 set laststatus=2
 let g:airline_powerline_fonts=1
-let g:airline_theme= "jellybeans"
+let g:airline_theme= "murmur"
 let g:airline_detect_whitespace=0
 
 " tmuxline
