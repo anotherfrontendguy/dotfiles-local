@@ -1,4 +1,6 @@
 " Colorscheme
+" Background transparent please
+let g:jellybeans_background_color_256='NONE'
 colorscheme jellybeans
 
 " Mappings
