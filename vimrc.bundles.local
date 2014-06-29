@@ -3,6 +3,7 @@ Bundle 'nanotech/jellybeans.vim'
 Bundle 'zeis/vim-kolor'
 Bundle 'junegunn/seoul256.vim'
 Bundle 'Lokaltog/vim-distinguished'
+Bundle 'vim-scripts/256-grayvim'
 " end colors
 Bundle 'othree/html5.vim'
 Bundle 'bling/vim-airline'
