@@ -63,3 +63,7 @@ set pastetoggle=<F2>
 
 " Multiple Cursor with CTRl-D
 let g:multi_cursor_next_key='<C-d>'
+
+" no more colorcolum for me
+" (is set in main dotfiles repo)
+set colorcolumn=0
