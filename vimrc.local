@@ -67,3 +67,6 @@ let g:multi_cursor_next_key='<C-d>'
 " no more colorcolum for me
 " (is set in main dotfiles repo)
 set colorcolumn=0
+
+" redefine emmet trigger key
+let g:user_emmet_leader_key='<C-Q>'
