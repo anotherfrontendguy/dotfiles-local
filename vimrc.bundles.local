@@ -11,3 +11,5 @@ Bundle 'edkolev/tmuxline.vim'
 Bundle 'tpope/vim-markdown'
 Bundle 'jtratner/vim-flavored-markdown'
 Bundle 'scrooloose/nerdtree'
+Bundle 'junegunn/goyo.vim'
+
